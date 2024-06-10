@@ -21,6 +21,7 @@ pipeline {
         stage('Deploy') {
             steps {
                 echo 'Deploying...'
+                echo environment
                 // Add your deployment steps he
             }
         }
